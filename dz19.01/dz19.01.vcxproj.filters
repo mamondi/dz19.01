@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{de04796c-253d-4923-bfdc-34f6864c06e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parent">
+      <UniqueIdentifier>{13df4f76-ebb6-47fb-aa94-de23a643a2aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Child">
+      <UniqueIdentifier>{13a9adc8-936a-4849-97de-3b6b15e9967b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mainclass.h">
+      <Filter>Parent</Filter>
+    </ClInclude>
+    <ClInclude Include="subclass.h">
+      <Filter>Child</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
